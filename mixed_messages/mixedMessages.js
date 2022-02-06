@@ -2,8 +2,8 @@
 
 console.log('Nonsesnsical Book Title Generator')
 
-let firstWords = ['Quarks', 'Alice', 'Sophia', 'Angel', 'Brother', 'Dragon', 'Lady'
-, 'Girl', 'Dog', 'Cat', 'Seneca', 'Marcus Aurelius'];
+let firstWords = ['Quarks', 'Alice', 'Sophia', 'Angel', 'Brother', 'Dragon',
+'Lady', 'Girl', 'Dog', 'Cat', 'Seneca', 'Marcus Aurelius'];
 
 let connectingWords = ['and', 'to', 'for', 'the', 'in', 'but', 'is'];
 
