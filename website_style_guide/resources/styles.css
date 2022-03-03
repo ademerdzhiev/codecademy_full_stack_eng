@@ -1,0 +1,128 @@
+html {
+
+}
+
+h1 {
+  font-style: bold;
+  font-size: 28pt;
+}
+
+h2 {
+  font-size: 24pt;
+}
+
+p {
+
+}
+
+
+.box {
+  border: 2px solid CadetBlue;
+  padding: 10px;
+  margin: 10px auto;
+}
+
+/* colors
+different styles of colors
+*/
+
+.color-box {
+  min-height: 100px;
+  width: 32%;
+  margin: 10px auto;
+  display: inline-block;
+  text-align: center;
+}
+
+#aqua-box {
+  background-color: Aqua;
+  color: black;
+
+}
+
+#coral-box {
+  background-color: Coral;
+  color: white;
+}
+
+#cadet-blue-box {
+  background-color: CadetBlue;
+  color: white;
+}
+
+#crimson-box {
+  background-color: Crimson;
+  color: white;
+}
+
+/* FONTS
+guide for the different font styles that should be used
+*/
+.font-box {
+  display: inline-block;
+  text-align: center;
+  padding: 10px 10px;
+}
+
+.list {
+  font-weight: 400;
+  font-size: 13pt;
+}
+
+#lato-font {
+  font-family: 'Lato', sans-serif;
+  font-size: 18pt;
+  text-decoration: underline;
+}
+
+#montserrat-font {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18pt;
+  text-decoration: underline;
+}
+
+#noto-font {
+  font-family: 'Noto', sans-serif;
+  font-size: 18pt;
+  text-decoration: underline;
+}
+
+#h1-style {
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 28pt;
+}
+
+#h2-style {
+  font-family: 'Montserrat', sans-serif;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 24pt;
+}
+
+#p-style {
+  font-family: 'Noto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13pt;
+}
+
+.button {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  text-align: center;
+  border: 3px solid red;
+  height: 60px;
+  width: 120px;
+  cursor: pointer;
+  padding-top: 10px;
+}
+
+.button:hover {
+  background-color: #C0D6DF;
+}
+
+.button:active {
+  color: white;
+}
