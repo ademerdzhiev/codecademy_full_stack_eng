@@ -1,1 +1,62 @@
- 
+* {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+h1 {
+
+}
+
+h2 {
+
+}
+
+h3 {
+
+}
+
+h4 {
+
+}
+
+header {
+  position:fixed;
+  width: 100%;
+}
+
+main {
+
+}
+
+footer {
+
+}
+
+.navbar {
+  display: flex;
+  flex-flow: row wrap;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+}
+
+#logo {
+  height: 50px;
+}
+
+#nav-box {
+  display: flex;
+  flex-grow: 2;
+  min-width: 300px;
+  margin-bottom: 10px;
+}
+
+#navbar-menu p{
+  display: inline-flex;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  text-decoration: underline;
+}
