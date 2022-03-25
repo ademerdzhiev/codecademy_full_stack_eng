@@ -7,6 +7,8 @@
   text-align: center;
 }
 
+
+
 h1 {
 
 }
@@ -24,12 +26,15 @@ h4 {
 }
 
 header {
-  position:fixed;
+  background-color: #333333;
+  position: fixed;
   width: 100%;
+  z-index: 10;
 }
 
 main {
-
+  text-align: center;
+  position: relative;
 }
 
 footer {
@@ -39,8 +44,16 @@ footer {
 .navbar {
   display: flex;
   flex-flow: row wrap;
+  justify-content: space-between;
   height: 69px;
   border-bottom: 1px solid seashell;
+}
+
+.background-picture {
+  height: 700px;
+  background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg');
+  background-repeat: no-repeat;
+
 }
 
 #logo {
@@ -52,6 +65,7 @@ footer {
   flex-grow: 2;
   min-width: 300px;
   margin-bottom: 10px;
+  z-index: 99;
 }
 
 #navbar-menu p{
@@ -60,3 +74,10 @@ footer {
   margin-bottom: 10px;
   text-decoration: underline;
 }
+
+
+
+/* #main-headings {
+  display: flex;
+  justify-content: center;
+} */
